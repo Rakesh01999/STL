@@ -11,7 +11,7 @@ int main() {
         scanf("%d", &n);
 
         std::unordered_map<int, int> freq;
-        freq.reserve(n); // Avoid rehashing
+        freq.reserve(n); 
 
         int maxFreq = 0;
         for (int i = 0; i < n; ++i) {
