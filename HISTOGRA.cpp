@@ -8,6 +8,7 @@ ll largestRectangle(vector<ll>& heights) {
     ll maxArea = 0;
     int n = heights.size();
     
+    // how , what 
     for (int i = 0; i <= n; ++i) {
         ll h = (i == n ? 0 : heights[i]);
         while (!st.empty() && heights[st.top()] > h) {
